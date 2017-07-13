@@ -1,0 +1,63 @@
+#+Title: Voice Assistant 
+#+Author: TAG
+# +Email: yjwen.ty@gmail.com
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:nil
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t 
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil num:nil timestamp:nil
+#+OPTIONS:  reveal_slide_number:nil
+# +REVEAL_MARGIN: 0.1
+# +REVEAL_MIN_SCALE: 0.5
+# +REVEAL_MAX_SCALE: 2.5
+# +REVEAL_TRANS: cube
+#+REVEAL_THEME: league
+#+REVEAL_HLEVEL: 999
+# +REVEAL_HEAD_PREAMBLE: <meta name="description" content="Org-Reveal Introduction.">
+# +REVEAL_POSTAMBLE: <p> Created by yjwen. </p>
+# +REVEAL_PLUGINS: (highlight)
+# +REVEAL_EXTRA_CSS: ./local.css
+# +reveal_slide_number:h/v
+
+* Just Ask!
+[[./images/hello_computer.gif]]
+
+*Use Cases*
+1. Make phone calls
+2. Shedule meetings and appointments
+3. Get directions
+4. Set reminders
+5. Ask questions
+
+** Where People use Voice Assistants
+#+ATTR_HTML: :height 60%, :width 60%
+[[./images/in_car.png]]
++ Source: Creative Strategies
++ Based on survey of 500 consumers in US
+
+** Technologies Used
+
+#+ATTR_REVEAL: :frag (roll-in)
+- Natural Language Processing
+  - To understand users speech input
+- Automatic Speech Recognition
+  - To understand command according to user's input
+- Artificial Intelligence
+  - To learn things from user and to store all information for future use
+- Inter Process Communication
+  - To get important information from other applications
+
+** In Summary. . 
++ A virtual assistant consists of three layers
+#+ATTR_REVEAL: :frag (roll-in)
+  1. Speech to text
+  2. Text Analysis
+  3. Interpret commands
+
+** Deep Learning
+ - Word2Vec
+ - Word Embeddings
+ - RNN, LSTM
+ - Memmory Networks
+ - [[https://classroom.udacity.com/courses/ud730/lessons/6378983156/concepts/63742734590923][Udacity]]
+ - [[https://github.com/shreyans29/thesemicolon][GitHub]]

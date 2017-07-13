@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Voice Assistant</title>
+<meta name="author" content="(TAG)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///home/sm/reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="file:///home/sm/reveal.js/css/theme/league.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///home/sm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Voice Assistant</h1><h2 class="author">TAG</h2>
+</section>
+
+<section>
+<section id="slide-org39b6944">
+<h2 id="org39b6944">Just Ask!</h2>
+
+<div class="figure">
+<p><img src="./images/hello_computer.gif" alt="hello_computer.gif" />
+</p>
+</div>
+
+<p>
+<b>Use Cases</b>
+</p>
+<ol>
+<li>Make phone calls</li>
+<li>Shedule meetings and appointments</li>
+<li>Get directions</li>
+<li>Set reminders</li>
+<li>Ask questions</li>
+
+</ol>
+
+</section>
+</section>
+<section>
+<section id="slide-org96baf74">
+<h3 id="org96baf74">Where People use Voice Assistants</h3>
+
+<div class="figure">
+<p><img src="./images/in_car.png" alt="in_car.png" height="60%," width="60%" />
+</p>
+</div>
+<ul>
+<li>Source: Creative Strategies</li>
+<li>Based on survey of 500 consumers in US</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgcc389f3">
+<h3 id="orgcc389f3">Technologies Used</h3>
+<ul>
+<li class="fragment roll-in">Natural Language Processing
+<ul>
+<li>To understand users speech input</li>
+
+</ul></li>
+<li class="fragment roll-in">Automatic Speech Recognition
+<ul>
+<li>To understand command according to user's input</li>
+
+</ul></li>
+<li class="fragment roll-in">Artificial Intelligence
+<ul>
+<li>To learn things from user and to store all information for future use</li>
+
+</ul></li>
+<li class="fragment roll-in">Inter Process Communication
+<ul>
+<li>To get important information from other applications</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgbcfdbfb">
+<h3 id="orgbcfdbfb">In Summary. .</h3>
+<p>
+A virtual assistant consists of three layers
+</p>
+
+<ol>
+<li class="fragment roll-in">Speech to text</li>
+<li class="fragment roll-in">Text Analysis</li>
+<li class="fragment roll-in">Interpret commands</li>
+
+</ol>
+
+</section>
+</section>
+<section>
+<section id="slide-org9aed48e">
+<h3 id="org9aed48e">Deep Learning</h3>
+<ul>
+<li>Word2Vec</li>
+<li>Word Embeddings</li>
+<li>RNN, LSTM</li>
+<li>Memmory Networks</li>
+<li><a href="https://classroom.udacity.com/courses/ud730/lessons/6378983156/concepts/63742734590923">Udacity</a></li>
+<li><a href="https://github.com/shreyans29/thesemicolon">GitHub</a></li>
+<li><a href="http://suriyadeepan.github.io/2016-06-28-easy-seq2seq/">Blogs</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///home/sm/reveal.js/lib/js/head.min.js"></script>
+<script src="file:///home/sm/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: false,
+progress: true,
+history: false,
+center: true,
+slideNumber: false,
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:///home/sm/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'file:///home/sm/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/sm/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/sm/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:///home/sm/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
