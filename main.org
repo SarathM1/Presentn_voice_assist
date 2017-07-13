@@ -48,7 +48,8 @@
   - To get important information from other applications
 
 ** In Summary. . 
-+ A virtual assistant consists of three layers
+A virtual assistant consists of three layers
+
 #+ATTR_REVEAL: :frag (roll-in)
   1. Speech to text
   2. Text Analysis
@@ -61,3 +62,4 @@
  - Memmory Networks
  - [[https://classroom.udacity.com/courses/ud730/lessons/6378983156/concepts/63742734590923][Udacity]]
  - [[https://github.com/shreyans29/thesemicolon][GitHub]]
+ - [[http://suriyadeepan.github.io/2016-06-28-easy-seq2seq/][Blogs]]
